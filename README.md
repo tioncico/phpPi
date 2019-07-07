@@ -48,17 +48,17 @@
 > 将执行流暂停 指定的微秒数（1000微秒 = 1毫秒 = 0.001秒）。因为Linux本身是多线程的，所以实际暂停时间可能会长一些。参数是unsigned int 类型，最大延时时间可达71分钟
 
 ## 常量
-PI_INPUT= 0
-PI_OUTPUT= 1
-PI_PWM_OUTPUT= 2
-PI_GPIO_CLOCK= 3
-
-PI_LOW= 0
-PI_HIGH= 1
-
-PI_PUD_OFF= 0
-PI_PUD_DOWN= 1
-PI_PUD_UP= 2
+- PI_INPUT= 0  
+- PI_OUTPUT= 1
+- PI_PWM_OUTPUT= 2
+- PI_GPIO_CLOCK= 3
+- 
+- PI_LOW= 0
+- PI_HIGH= 1
+- 
+- PI_PUD_OFF= 0
+- PI_PUD_DOWN= 1
+- PI_PUD_UP= 2
 
 ## 树莓派引脚对照表
 ![pi](piIo.png)
