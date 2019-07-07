@@ -59,3 +59,6 @@ PI_HIGH= 1
 PI_PUD_OFF= 0
 PI_PUD_DOWN= 1
 PI_PUD_UP= 2
+
+## 树莓派引脚对照表
+![pi](piIo.png)
